@@ -1,0 +1,6 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  E:\CUDA\FlashAttention_CUDA\FlashAttention_CUDA\FlashAttention_CUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\bin\nvcc.exe" -gencode=arch=compute_86,code=\"sm_86,compute_86\" --use-local-env -ccbin "C:\Program Files\Microsoft Visual Studio\18\Professional\VC\Tools\MSVC\14.50.35717\bin\HostX64\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v13.2\include"  -G   --keep-dir x64\Debug  -maxrregcount=0    --machine 64 --compile -cudart hybrid  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -Xcompiler "/Fdx64\Debug\vc145.pdb" -o E:\CUDA\FlashAttention_CUDA\FlashAttention_CUDA\FlashAttention_CUDA\x64\Debug\kernel.cu.obj "E:\CUDA\FlashAttention_CUDA\FlashAttention_CUDA\FlashAttention_CUDA\kernel.cu" 
+  kernel.cu
+  tmpxft_00005200_00000000-7_kernel.cudafe1.cpp
+  FlashAttention_CUDA.vcxproj -> E:\CUDA\FlashAttention_CUDA\FlashAttention_CUDA\x64\Debug\FlashAttention_CUDA.exe
